@@ -335,6 +335,7 @@ article blockquote{
 article pre, article code{
 	margin-bottom:30px;
 	font-size:16px;
+	background: transparent;
 }
 
 article pre{

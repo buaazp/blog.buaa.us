@@ -20,7 +20,7 @@
 
 		<h1><a href="{{url}}">{{title}}</a></h1>
 		<span class="meta">{{date format='YYYY-MM-DD'}} {{#if tags}} {{#tags}} #{{name}} {{/tags}} {{/if}}</span>
-		<p class="summary">{{excerpt}}</p>
+		<p class="summary">{{excerpt words="20"}}</p>
     </article>
 
     {{/foreach}}
