@@ -218,7 +218,7 @@ article h2{
 	line-height:1.4;
 	font-size:27px;
 	color:#777;
-	font-style: italic;
+	/*font-style: italic;*/
 	padding-bottom:40px;
 	font-family: 'Lato', sans-serif !important;
 }
@@ -275,7 +275,7 @@ article p{
 .summary{
 	color:#777;
 	font-weight:100;
-	font-style: italic !important;
+	font-style: !important;
 }
 
 article img{
@@ -290,9 +290,11 @@ article p strong{
 	font-weight:600;
 }
 
+/*
 article p em{
 	font-style: italic;
 }
+*/
 
 article ul{
 	list-style:disc;
@@ -331,17 +333,25 @@ article blockquote{
 	text-align: center;
 }
 */
-
-article pre, article code{
-	margin-bottom:30px;
-	font-size:16px;
-	background: transparent;
+article p code {
+	margin-left:5px;
+	margin-right:5px;
+	background-color: #f8f8f8;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	overflow: auto;
+	padding: 1px 5px;
+	border-radius: 3px;
 }
 
-article pre{
+article pre {
+	margin-bottom:30px;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	overflow: auto;
 	border-radius:5px;
 	box-shadow:0 1px 5px #eee;
-	padding:15px !important;
+	padding:1px !important;
 }
 
 article pre *{
