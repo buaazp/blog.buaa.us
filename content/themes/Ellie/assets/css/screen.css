@@ -73,7 +73,7 @@ a{color:#00D9D9;}
 /*Header*/
 header{
 	width:100%;
-	height:65%;
+	height:432px;
 	background:url('../assets/main.jpg') no-repeat center;
 	background-size:cover;
 	background-attachment:fixed;
